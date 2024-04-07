@@ -1,0 +1,45 @@
+Metric Type,Name of the Metric,Description
+(1) Textual,TF Vectorized Commit Messages (Vocabulary),Term Frequency (TF) vocabulary of vectorized of the commit messages
+(1) Textual,Words Count,Count of words in the commit messages
+(1) Textual,Sentences Count,Count of sentences in the commit messages
+(1) Textual,Readability,Flesch readability score of the commit messages
+(2) Process,Lines Added,Number of lines added in the commit
+(2) Process,Lines Deleted,Number of lines deleted in the commit
+(2) Process,Lines Changed,Lines Added + Lines Deleted
+(2) Process,Number of Files,Number of files modified in the commit
+(2) Process,Code Entropy,Shannon's entropy of the code in the commit
+(2) Process,Refactoring Contribution Ratio (RCR),Refactoring commits of the author (i) / All commits of the author (i)
+(2) Process,Has Executable File,Presence of executable files in the commit
+(3) Code,Avg Count Line,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Avg Count Line Blank,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Avg Count Line Code,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Avg Count Line Comment,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Avg Cyclomatic,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Count Class Base,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Count Class Coupled,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Count Class Coupled Modified,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Count Class Derived,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Count Decl Class,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Count Decl Executable-Unit,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Count Decl File,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Count Decl Function,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Count Decl Instance Method,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Count Decl Instance Variable,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Count Decl Method,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Count Decl Method All,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Count Line,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Count Line Blank,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Count Line Code,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Count Line Code Decl,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Count Line Code Exe,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Count Line Comment,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Count Stmt,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Count Stmt Decl,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Count Stmt Exe,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Cyclomatic,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Max Cyclomatic,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Max Inheritance Tree,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Max Nesting,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Ratio Comment To Code,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+(3) Code,Sum Cyclomatic,https://support.scitools.com/support/solutions/articles/70000582223-what-metrics-does-understand-have-
+,,above are the metrics supported by understand in Python code
